@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+
+#clock {
+  width: 6em;
+  height: 1.3em;
+  border-radius: 1em;
+  position: absolute;
+  left: 0; right: 0; top: 0; bottom: 0;
+  margin: auto;
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+  font-size: 150px;
+  color: #222222;
+  line-height: 1.2em;
+  background: #eee;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 699px){
+   #clock{
+    font-size: 80px;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 499px){
+   #clock{
+    font-size: 50px;
+  }
+}
