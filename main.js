@@ -9,7 +9,7 @@ function display () {
     seconds = '0' + seconds;
   }
   if (minutes<10){
-    minutes = '0' + seconds;
+    minutes = '0' + minutes;
   }
   if (hours<10){
     hours = '0' + hours;
